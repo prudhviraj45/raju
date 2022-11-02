@@ -32,4 +32,7 @@ resource "aws_db_instance" "default" {
 # Password to connect the database instance 
   password             = var.password
   parameter_group_name = var.parameter_group_name
+# password to connect the database instance
+  db_subnet_group_name = var.db_subnet_group_name
+  skip_final_snapshot = var.skip_final_snapshot
 }
