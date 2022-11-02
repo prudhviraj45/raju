@@ -1,0 +1,10 @@
+ami = "ami-062df10d14676e201"
+instance_type = "t2.micro"
+
+engine               = "mysql"
+engine_version       = "5.7"
+instance_class       = "db.t3.micro"
+name                 = "mydb"
+username             = "user1"
+password             = "password"
+parameter_group_name = "default.mysql5.7"
