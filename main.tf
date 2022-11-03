@@ -2,6 +2,7 @@ resource "aws_instance" "my-machine" {
   ami = var.ami 
   instance_type = var.instance_type 
   subnet_id     = "subnet-09bc5a26e96ae9d20"
+  key_name = var.key_name
   tags = {
     Name = "my-ec2-machine"
   }
@@ -9,12 +10,11 @@ resource "aws_instance" "my-machine" {
 
 resource "aws_s3_bucket" "tfbucket" {
 
-    bucket = "prudhvitf-bucket"
+  bucket = "prudhvitf-bucket"
 
     tags = {
         Name    = "cloudearl Bucket"
         Environment = "Cloudearl"
-
     }
 }
 
