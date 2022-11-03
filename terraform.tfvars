@@ -2,7 +2,7 @@ ami = "ami-062df10d14676e201"
 instance_type = "t2.micro"
 
 
-bucket_name = "noname_raj"
+bucket_name = "noname_raju"
 db_name = "noname_rds"
 
 
