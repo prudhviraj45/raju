@@ -1,5 +1,8 @@
 ami = "ami-062df10d14676e201"
 instance_type = "t2.micro"
+vpc_id = "vpc-06bb40a8b1b88617c"
+subnet_id = "subnet-014df662178aacdf2" 
+key_name = "create"
 
 
 bucket_name = "noname_raju"
