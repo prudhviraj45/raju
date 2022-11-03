@@ -5,7 +5,7 @@ subnet_id = "subnet-014df662178aacdf2"
 key_name = "create"
 
 
-bucket_name = "noname_raju"
+bucket_name = "noname_prudhvi"
 db_name = "noname_rds"
 
 
