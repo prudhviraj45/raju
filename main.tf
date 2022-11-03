@@ -1,7 +1,7 @@
 resource "aws_instance" "my-machine" {
   ami = var.ami 
   instance_type = var.instance_type 
-  subnet_id     = "subnet-09bc5a26e96ae9d20"
+  subnet_id     = "subnet-014df662178aacdf2"
   key_name = var.key_name
   tags = {
     Name = "my-ec2-machine"
