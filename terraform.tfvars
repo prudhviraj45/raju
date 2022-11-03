@@ -6,7 +6,6 @@ key_name = "create"
 
 
 bucket_name = "noname_prudhvi"
-db_name = "noname_rds"
 
 
 
@@ -17,6 +16,6 @@ name                 = "mydb"
 username             = "user1"
 password             = "password"
 parameter_group_name = "default.mysql5.7"
-db_subnet_group_name = "group"
+db_subnet_group_name = "nonamen"
 publicly_accessible    = true
 skip_final_snapshot    = true
