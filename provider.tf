@@ -4,3 +4,14 @@ provider "aws" {
     access_key = "AKIAQTRS3MZZHXJSMZNC"
     secret_key = "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"
 }
+
+terraform {
+  backend "s3" {
+    bucket         = "buckets3ec2"
+    key            = "ec2rdss3/terraform.tfstate"
+    region         = "ap-south-1"
+
+    dynamodb_table = "table"
+    encrypt        = true
+  }
+}
