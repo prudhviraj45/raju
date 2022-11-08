@@ -6,7 +6,7 @@ resource "aws_instance" "my-machine" {
   tags = {
     Name = "my-ec2-machine"
   }
-
+}
 
 resource "aws_s3_bucket" "tfbucket" {
 
